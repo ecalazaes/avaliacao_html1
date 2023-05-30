@@ -1,0 +1,171 @@
+body{
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#principal{
+    width: 1280px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+}
+
+#barradecimaheader{
+    width: 1280px;
+    height: 25px;
+    background-color: #9ed600;
+}
+
+#barradebaixoheader{
+    width: 1280px;
+    height: 15px;
+    background-color: #e1ff8d;
+}
+
+header{
+    width: 1280px;
+    height: 150px;    
+    display: flex;    
+}
+
+nav{
+    width: 1280px;
+    height: 120px;    
+}
+
+nav ul{
+    margin-left: -20px;    
+    width: 1240px;
+    height: 125px;    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;      
+}
+
+.botao{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding: 15px 20px;
+    background-color: #698e00;
+    border-radius: 13px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    font-size: 20px;
+    transition: 1s;    
+}
+
+.botao:hover{
+    text-decoration: none;
+    color: #698e00;
+    font-weight: bolder;
+    padding: 15px 20px;
+    background-color: #e1ff8d;
+    border-radius: 13px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    font-size: 20px;
+    transition: 1s;          
+}
+
+#banner{
+    width: 1280px;
+    height: 249px;
+    background-image: url(../imagens/destaque.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#banner p{
+    width: 300px;
+    margin-left: 45px;
+    line-height: 30px;
+    font-weight: bolder;
+}
+
+#botaobanner{    
+    color: white;
+    font-weight: bolder;
+    padding: 15px 20px;
+    background-color: #698e00;
+    border-radius: 13px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    font-size: 20px; 
+    opacity: 0.8;    
+}
+
+#meiuca{
+    background-color: white;
+}
+
+#paisection-article{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;    
+}
+
+#fotodestaque{
+    width: 700px;
+    background-color: #e1ff8d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#h1destaque{
+    width: 658px;
+    display: flex; 
+    color: #698e00;   
+}
+
+#pdestaque{
+    width: 658px;
+    display: flex;    
+}
+
+.topico{
+    width: 234px;               
+}
+
+article p{
+    margin-bottom: 40px;
+}
+
+#paisection-fotoslaterais{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#segundodestaque{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#textosegundodestaque{
+    width: 440px;    
+}
+
+article{
+    width: 234px;
+}
+
+footer{
+    width: 1280px;
+    height: 80px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    background-color: #698e00;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
